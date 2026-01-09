@@ -8,11 +8,26 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
+
+ 
  
   background(255,255,255,0);
   
+  noStroke();
+  fill(255,255,255);
+    ellipse(400,100,40,40);   
 
 
+    fill(69, 52, 38);
+    rect(0,0,50,400);
+
+    rect(550,0,100,400);
+
+    rect(0,0,600,30);
+
+    rect(0,370,600,370);
+
+    rect(290,0,310,400);
 
 
 
